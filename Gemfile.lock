@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    attribute_struct (0.2.20)
+    aws-sdk (2.1.0)
+      aws-sdk-resources (= 2.1.0)
+    aws-sdk-core (2.1.0)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.1.0)
+      aws-sdk-core (= 2.1.0)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
+    multi_json (1.11.1)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.2)
+    sparkle_formation (0.2.12)
+      attribute_struct (~> 0.2.2)
+      multi_json
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk
+  net-scp
+  net-ssh
+  sparkle_formation

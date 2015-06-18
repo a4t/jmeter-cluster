@@ -1,0 +1,5 @@
+config.yml
+upload.jmx
+sparkle_formation/dest/*
+jmeter/results/*
+!.gitkeep
